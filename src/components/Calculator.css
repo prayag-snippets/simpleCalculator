@@ -1,0 +1,49 @@
+.btn{
+    padding-top: 1rem;
+    background-color: black;
+    color: aliceblue;
+    height: 4rem;
+    width: 5rem;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid;
+    font-size: x-large;
+}
+.display-number{
+    display: flex;
+}
+.buttonWrapper{
+    display: grid;
+    justify-content: center;
+}
+.calciScreen{
+    margin: 2rem auto;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 35rem;
+    border-radius: 2rem;   
+}
+.inputScreen{
+    text-align: right;
+    font-size: x-large;
+    overflow: auto;
+    margin: 2rem auto;
+    color: black;
+    width: 20rem;
+    background-color: azure;
+    border-radius: 1rem;
+    padding: 20px;
+}
+.danger{
+    background-color: rgb(231, 37, 7);
+}
+.success{
+    background-color: rgb(3, 112, 47);
+}
+.operator{
+    background-color: rgb(178, 189, 167);
+    color: mediumblue;
+}
