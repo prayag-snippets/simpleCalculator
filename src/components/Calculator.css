@@ -22,8 +22,8 @@
     background-color: darkgray;
     display: flex;
     flex-direction: column;
-    height: 35rem;
-    width: 35rem;
+    height: 30rem;
+    width: 25rem;
     border-radius: 2rem;   
 }
 .inputScreen{
